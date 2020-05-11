@@ -5,11 +5,40 @@
 }
 
 #container {
-  margin: 10px;
+  margin: 15px;
 }
 
 header {
   /* debug */
   background-color: yellow;
   height: 100px;
+}
+
+#content {
+  margin: 15px 0
+}
+
+#content::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.article {
+  float: left;
+  /* debug */
+  height: 200px;
+}
+
+.side {
+  width: 25%;
+  /* debug */
+  background-color: pink;
+}
+
+.middle {
+  width: 45%;
+  margin: 0 2.5%;
+  /* debug */
+  background-color: violet;
 }
