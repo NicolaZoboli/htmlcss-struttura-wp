@@ -3,3 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+#container {
+  margin: 10px;
+}
+
+header {
+  /* debug */
+  background-color: yellow;
+  height: 100px;
+}
