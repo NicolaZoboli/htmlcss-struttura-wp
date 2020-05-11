@@ -26,14 +26,21 @@ header {
 
 .article {
   float: left;
-  /* debug */
-  height: 200px;
 }
 
 .side {
   width: 25%;
+}
+
+.left {
   /* debug */
+  height: 200px;
   background-color: pink;
+}
+
+.right {
+  /* debug */
+  height: 260px;
 }
 
 .middle {
@@ -41,4 +48,15 @@ header {
   margin: 0 2.5%;
   /* debug */
   background-color: violet;
+  height: 300px;
+}
+
+.double {
+  /* debug */
+  background-color: pink;
+  height: 50%;
+}
+
+.double:last-child {
+  margin-top: 15px;
 }
