@@ -8,42 +8,46 @@
   margin: 15px;
 }
 
-header {
+/* header */
+
+#container header {
   /* debug */
   background-color: yellow;
   height: 100px;
 }
 
-#content {
+/* sezione principale */
+
+main #content {
   margin: 15px 0
 }
 
-#content::after {
+main #content::after {
   content: "";
   display: table;
   clear: both;
 }
 
-.article {
+main #content .article {
   float: left;
 }
 
-.side {
+main #content .side {
   width: 25%;
 }
 
-.left {
+main #content .left {
   /* debug */
   height: 250px;
   background-color: pink;
 }
 
-.right {
+main #content .right {
   /* debug */
   height: 300px;
 }
 
-.middle {
+main #content .middle {
   width: 45%;
   margin: 0 2.5%;
   /* debug */
@@ -51,7 +55,7 @@ header {
   height: 340px;
 }
 
-.double {
+.article .double {
   /* debug */
   background-color: pink;
   height: 50%;
@@ -61,7 +65,9 @@ header {
   margin-top: 15px;
 }
 
-footer {
+/* footer */
+
+#container footer {
   /* debug */
   background-color: lightblue;
   height: 70px;
